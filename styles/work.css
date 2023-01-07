@@ -119,12 +119,26 @@ main {
     color: #444343;
 
 }
-.about-list{
+.list{
+    margin: 0 200px;
+    list-style-position: inside;
+    list-style-image: url('../images/tik.png');
+}
+ ul{
+    list-style-position: inside
+    
+}
+/* .about-list{
     list-style-type: square;
+    list-style: inside;
     width: 349px;
     height: 162px;
     margin: 0 200px;
 }
+li{
+    list-style-position: inside;
+    list-style-image: url('tik.png');
+} */
 
 
 
