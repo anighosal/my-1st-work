@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
 }
 
 .background-image {
@@ -9,6 +10,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 
@@ -18,7 +20,9 @@
     display: flex;
     justify-content: right;
     text-align: right;
-    margin: 216px 216px 845px 230px;
+    margin: 0 200px
+
+
 
 }
 
@@ -32,7 +36,7 @@
 
     font-weight: 700;
     font-size: 65px;
-    
+
     text-align: right;
 }
 
@@ -42,10 +46,10 @@
     left: 876px;
     top: 468px;
 
-    
+
     font-weight: 400;
     font-size: 16px;
-    
+
     color: #444343;
     text-align: right;
 }
@@ -61,3 +65,51 @@
 
 
 }
+
+/* main section */
+
+main {
+    width: 1072px;
+    height: 723.3px;
+}
+
+/* about section styles */
+
+.about {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.about-title {
+
+    width: 288px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin: 0 200px;
+
+}
+
+.about-description {
+    margin: 0 200px;
+    margin-top: 20px;
+
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.about-list {
+    width: 349px;
+    height: 162px;
+    margin: 0 200px;
+    list-style: none;
+    color: #444343;
+    
+}
+
