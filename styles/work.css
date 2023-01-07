@@ -130,7 +130,7 @@ main {
 }
 
 /* my plans */
-.my-plans{
+.my-plans {
     margin: 0;
 }
 
@@ -144,7 +144,7 @@ main {
     text-align: center;
     margin-bottom: 50px;
     margin: 50px 400px;
-    
+
 
 
 
@@ -154,7 +154,8 @@ main {
     display: flex;
 
 }
-.skill{
+
+.skill {
     padding: 30px;
     background: #FFFFFF;
 }
@@ -166,6 +167,29 @@ main {
     color: #151414;
     margin-bottom: 20px;
     margin-top: 30px;
+
+
+}
+
+.gradient-img {
+    background-image: url('../images/watch.png');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.gradient-banner {
+    display: flex;
+}
+
+.gradient-title {
+    width: 459px;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 50px;
+    margin-top: 59px;
+    padding: 59px 50px;
+    color: #FFFFFF;
 
 
 }
