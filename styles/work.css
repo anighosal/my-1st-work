@@ -119,15 +119,17 @@ main {
     color: #444343;
 
 }
-.list{
+
+.list {
     margin: 0 200px;
     list-style-position: inside;
     list-style-image: url('../images/tik.png');
 }
- ul{
+
+ul {
     list-style-position: inside
-    
 }
+
 /* .about-list{
     list-style-type: square;
     list-style: inside;
@@ -143,10 +145,7 @@ li{
 
 
 
-.about-list .space .fa-solid fa-check{
-    color: springgreen;
-    text-decoration: springgreen;
- }
+
 
 /* my plans */
 .my-plans {
@@ -191,8 +190,12 @@ li{
 }
 
 .gradient-img {
-    background-image: url('../images/watch.png');
+    background: url('../images/watch.png');
+
+
     background-repeat: no-repeat;
+
+
 }
 
 .gradient-banner {
@@ -226,21 +229,21 @@ li{
     padding: 12px 35px;
 }
 
-.future {
-    display: flex;
-    gap: 100px;
+.future-img {
     background: #151414;
     background-size: cover;
-    padding: 130px 200px;
-
 
 
 
 }
 
+
 .future {
     text-align: left;
     margin-bottom: 30px;
+    display: flex;
+    gap: 100px;
+    padding: 100px 130px;
 }
 
 .future-title {
@@ -254,11 +257,19 @@ li{
 }
 
 .future input {
-    border: #444343;
+   
     width: 146px;
     font-weight: 400;
-    font-size: 18px;color: #F3F3F3;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+    
+
 }
+
+
 
 .gradienr-btn {
 
@@ -267,6 +278,8 @@ li{
     font-size: 20px;
     margin-top: 16px;
     padding: 20px 30px;
+    border-radius: 5px;
+    border: 0;
 
 
     color: #F15B22;
