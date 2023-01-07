@@ -2,6 +2,7 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 .background-image {
@@ -10,17 +11,26 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
 
 }
 
 
 /* header & banner */
 
+
 .banner {
     display: flex;
     justify-content: right;
     text-align: right;
-    margin: 0 200px
+    margin: 0 200px;
+    margin-bottom: 200px;
+    padding: 300px;
+
+
+
+
+
 
 
 
@@ -69,17 +79,21 @@
 /* main section */
 
 main {
-    width: 1072px;
-    height: 723.3px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* about section styles */
 
-.about {
+.about-sec {
+    margin-bottom: 50px;
+    margin: 0 200px;
     margin: 0 200px;
     display: flex;
     align-items: center;
-    position: absolute;
+    padding: 50px;
+    justify-content: center;
+
 }
 
 .about-title {
@@ -89,6 +103,8 @@ main {
     font-size: 40px;
     color: #151414;
     margin: 0 200px;
+    margin-top: 124px;
+    padding: 50px;
 
 }
 
@@ -110,6 +126,46 @@ main {
     margin: 0 200px;
     list-style: none;
     color: #444343;
-    
+
 }
 
+/* my plans */
+.my-plans{
+    margin: 0;
+}
+
+.section-title {
+
+    width: 179px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 136px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 50px 400px;
+    
+
+
+
+}
+
+.skills-container {
+    display: flex;
+
+}
+.skill{
+    padding: 30px;
+    background: #FFFFFF;
+}
+
+.skill-title {
+    font-weight: 700px;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+
+}
